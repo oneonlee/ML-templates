@@ -16,6 +16,8 @@ def essential_tokenizer(text):
     
     pos_list = mecab.pos(text)
     
+    # As of January 31, 2023
+    # https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0
     josa_list = ["JKS", "JKC", "JKG", "JKO", "JKB", "JKV", "JKQ", "JC", "JX"]
 
     token_list = []
