@@ -28,7 +28,7 @@ def josaless_tokenizer(text, josa_list):
     return token_list
 
 
-# As of January 31, 2023
+# As of March 24, 2023
 # https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0
 essential_list = ["NNG", "NNBC", "NNB", "NR", "NP", "NNP",
                 "VV", "VV+EC", "VV+ETM", "VA",
