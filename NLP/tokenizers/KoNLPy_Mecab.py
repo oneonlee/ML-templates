@@ -30,11 +30,12 @@ def josaless_tokenizer(text, josa_list):
 
 # As of March 24, 2023
 # https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0
-essential_list = ["NNG", "NNBC", "NNB", "NR", "NP", "NNP",
-                "VV", "VV+EC", "VV+ETM", "VA",
-                "SL", "SN", 
-                "XSN",
-                "MAG", "MM"]
+essential_list = ["NNG", "NNBC", "NNB", "NR", "NP", "NNP", # 명사 종류들
+                  "VV", "VV+EC", "VV+ETM", "VA", # 동사 및 형용사 종류들
+                  "SL", "SN", # SL: 외국어, SN: 숫자
+                  "XSN", # 명사파생 접미사
+                  "MAG", "MM" # MM: 관형사, MAG: 일반 부사
+                 ]
 def essential_tokenizer(text, essential_list):
     
     # Use for cleansing
